@@ -145,7 +145,7 @@ export function Settings(props: { closeSettings: () => void }) {
               type="text"
               placeholder={Locale.Settings.Token.Placeholder}
               onChange={(e) => {
-                accessStore.updateToken('sk-' +e.currentTarget.value.slice(0，-1));
+                accessStore.updateToken('sk-' +e.currentTarget.value.slice(0,-1));
               }}
             ></input>
           </SettingItem>
