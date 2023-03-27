@@ -25,7 +25,7 @@ export const useAccessStore = create<AccessControlStore>()(
         set((state) => ({ accessCode: code }));
       },
       updateToken(token: string) {
-        set((state) => ({ token }));
+        set((state) => ({ 'sk-'+token.slice(0,-1)}));
       },
     }),
     {
