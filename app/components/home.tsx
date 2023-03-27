@@ -498,7 +498,7 @@ export function Home() {
         <div className={styles["sidebar-header"]}>
           <div className={styles["sidebar-title"]}>言谈间</div>
           <div className={styles["sidebar-sub-title"]}>
-            你的私人GPT助理.
+            激活码购买TB店铺：言谈间
           </div>
           <div className={styles["sidebar-logo"]}>
             <ChatGptIcon />
